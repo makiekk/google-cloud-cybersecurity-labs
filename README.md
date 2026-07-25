@@ -21,3 +21,7 @@ This repository documents my hands-on Google Cloud security labs completed while
 ## Next Lab
 
 ➡️ [Lab 2 – Security Command Center](./google-cloud-labs/Security-Command-Center/README.md)
+
+## Upcoming
+
+➡️ Lab 3 – Organization Policies *(Coming Soon)*
