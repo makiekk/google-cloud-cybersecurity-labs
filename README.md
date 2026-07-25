@@ -20,4 +20,4 @@ This repository documents my hands-on Google Cloud security labs completed while
 
 ## Next Lab
 
-Continue to **Lab 2 – Security Command Center (SCC)** to learn how to monitor and remediate security findings after creating a secure cloud network.
+➡️ [Lab 2 – Security Command Center](./google-cloud-labs/Security-Command-Center/README.md)
