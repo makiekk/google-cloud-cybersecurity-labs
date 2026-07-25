@@ -1,33 +1,19 @@
-# Google Cloud Cybersecurity Labs
+# Google Cloud Security Labs
 
-This repository contains my hands-on work from the Google Cloud Cybersecurity Fundamentals course.
+This repository documents my hands-on Google Cloud security labs completed while learning cloud security.
 
-## Lab 1: Create a VPC using Cloud Shell
+## Lab Index
 
-### Objective
-Create a custom VPC network, create a subnet, and verify the network configuration using Cloud Shell.
+| Lab | Topic | Status |
+|------|-------|--------|
+| Lab 1 | Virtual Private Cloud (VPC) | ✅ Completed |
+| Lab 2 | Security Command Center (SCC) | ✅ Completed |
 
-### Commands Used
+## Learning Path
 
-```bash
-gcloud compute networks create labnet --subnet-mode=custom
-
-gcloud compute networks subnets create labnet-sub \
-  --network labnet \
-  --region us-central1 \
-  --range 10.0.0.0/28
-
-gcloud compute networks list
-
-gcloud compute networks subnets list --network=labnet
-```
-
-### Skills Learned
-- Google Cloud Shell
-- Virtual Private Cloud (VPC)
-- Custom VPC Networks
-- Subnets
-- gcloud CLI
-
-### Result
-Successfully created a custom VPC network and subnet and verified both using Cloud Shell.
+1. Virtual Private Cloud (VPC)
+2. Security Command Center (SCC)
+3. Organization Policies
+4. IAM
+5. Assured Workloads
+6. Cloud Storage Security
