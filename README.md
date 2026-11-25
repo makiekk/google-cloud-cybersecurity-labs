@@ -1,155 +1,63 @@
 # Google Cloud Cybersecurity Portfolio
 
-This repository showcases hands-on Google Cloud cybersecurity labs completed as part of the **Google Cloud Cybersecurity Professional Certificate**. Each lab demonstrates practical cloud security skills including network security, threat detection, identity and access management (IAM), and security best practices.
+This repository documents hands-on labs completed while developing practical Google Cloud cybersecurity skills. The canonical lab sequence is maintained under **[Google Cloud Labs](google-cloud-labs/README.md)**.
 
----
+## Google Cloud Labs – Labs 1 to 6
 
-## Repository Structure
+All six labs are grouped under the `google-cloud-labs/` category. Use the links below to open each lab's full README.
 
-```
-google-cloud-cybersecurity-portfolio/
-│
-├── README.md
-├── 01-secure-vpc-network/
-│   ├── README.md
-│   └── screenshots/
-│
-├── 02-security-command-center/
-│   ├── README.md
-│   └── screenshots/
-│
-├── 03-iam-custom-role/
-│   ├── README.md
-│   └── screenshots/
-│
-└── assets/
-```
+| Lab | Title | Focus | Documentation |
+|---|---|---|---|
+| **1** | Secure Virtual Private Cloud (VPC) | Custom VPC, subnetting, firewall rules, network segmentation | [Lab 1 README](google-cloud-labs/01-secure-vpc-network/README.md) |
+| **2** | Security Command Center – Security Posture | Cloud security findings, public Cloud Storage access, remediation | [Lab 2 README](google-cloud-labs/02-security-command-center-posture/README.md) |
+| **3** | IAM Custom Roles and Policy Analyzer | Least privilege, custom roles, Firebase permissions, access verification | [Lab 3 README](google-cloud-labs/03-iam-custom-roles-policy-analyzer/README.md) |
+| **4** | Assured Workloads | Compliance-oriented workloads, data residency, governance | [Lab 4 README](google-cloud-labs/04-assured-workloads/README.md) |
+| **5** | Terraform VPC Network and Firewall | Infrastructure as Code, Terraform, VPC and firewall provisioning | [Lab 5 README](google-cloud-labs/05-terraform-vpc-firewall/README.md) |
+| **6** | IAM Threat Detection and Incident Remediation | Event Threat Detection, Security Command Center, Cloud Audit Logs, IAM remediation | [Lab 6 README](google-cloud-labs/06-iam-threat-detection/README.md) |
 
----
+**[Open the complete Google Cloud Labs index](google-cloud-labs/README.md)**
 
-# Labs Completed
+## Learning Progression
 
-## 1. Secure VPC Network
+1. **Build the network foundation** – create a custom VPC and configure traffic controls.
+2. **Assess security posture** – identify and remediate cloud resource exposure.
+3. **Control identities and permissions** – implement least privilege and verify access.
+4. **Understand compliance boundaries** – explore Assured Workloads and governance controls.
+5. **Automate infrastructure** – provision network resources with Terraform.
+6. **Detect and respond to threats** – investigate anomalous IAM grants and remove excessive access.
 
-### Overview
-Configured a secure Virtual Private Cloud (VPC) environment by creating custom VPC networks, subnets, firewall rules, and virtual machine instances while following Google Cloud networking best practices.
-
-### Skills Demonstrated
-- Virtual Private Cloud (VPC)
-- Custom VPC Networks
-- Subnet Configuration
-- Firewall Rules
-- Compute Engine
-- Network Security
-- Cloud Infrastructure
-
-### Key Learning Outcomes
-- Built isolated cloud networks.
-- Configured secure communication between resources.
-- Applied firewall rules to control inbound and outbound traffic.
-- Deployed virtual machines inside a secure VPC.
-
----
-
-## 2. Security Command Center (SCC)
-
-### Overview
-Used Google Cloud Security Command Center to discover security findings, investigate vulnerabilities, and review security posture across Google Cloud resources.
-
-### Skills Demonstrated
-- Security Command Center
-- Cloud Security Posture Management
-- Vulnerability Assessment
-- Security Findings
-- Risk Analysis
-- Threat Detection
-
-### Key Learning Outcomes
-- Reviewed security findings.
-- Investigated misconfigurations.
-- Understood Google Cloud security recommendations.
-- Learned how cloud security teams prioritize remediation efforts.
-
----
-
-## 3. Identity and Access Management (IAM)
-
-### Overview
-Applied the Principle of Least Privilege by creating a custom IAM role, assigning it to an audit user, and verifying access using Google Cloud Policy Analyzer.
-
-### Skills Demonstrated
-- Identity and Access Management (IAM)
-- Custom IAM Roles
-- Least Privilege
-- Access Control
-- Policy Analyzer
-- Permission Management
-
-### Key Learning Outcomes
-- Created a custom IAM role.
-- Granted permissions to a specific user.
-- Verified policy bindings.
-- Audited user permissions using Policy Analyzer.
-
----
-
-# Technologies Used
+## Tools and Technologies
 
 - Google Cloud Platform (GCP)
-- Virtual Private Cloud (VPC)
-- Compute Engine
+- Virtual Private Cloud (VPC) and firewall rules
 - Identity and Access Management (IAM)
-- Security Command Center (SCC)
+- Security Command Center
+- Event Threat Detection
+- Cloud Logging and Cloud Audit Logs
 - Policy Analyzer
+- Cloud Storage
+- Terraform
 
----
+## Security Concepts Practiced
 
-# Security Concepts Practiced
+- Network segmentation and firewall policy
+- Cloud security posture management
+- Least-privilege access control
+- IAM role design and access verification
+- Compliance and data residency concepts
+- Infrastructure as Code
+- Threat detection and alert triage
+- Audit log investigation
+- Incident remediation
 
-- Principle of Least Privilege
-- Identity and Access Management
-- Network Segmentation
-- Firewall Configuration
-- Threat Detection
-- Vulnerability Management
-- Security Monitoring
-- Access Verification
-- Cloud Governance
+## About This Portfolio
 
----
+This portfolio records practical learning activities in controlled Google Cloud lab environments. Each README describes the objective, actions performed or investigated, outcomes, and skills practiced.
 
-# Learning Objectives
+Lab 4 (Assured Workloads) currently has a structured documentation placeholder because the earlier repository did not contain the detailed task steps or evidence. It is marked as pending rather than presenting unverified work as completed.
 
-These labs strengthened my practical understanding of:
+## Safe Publishing
 
-- Designing secure cloud networks
-- Managing identities and permissions
-- Detecting cloud security risks
-- Investigating security findings
-- Applying Google Cloud security best practices
-- Building a secure cloud environment using GCP
-
----
-
-# About
-
-This portfolio documents my hands-on experience completing Google Cloud cybersecurity labs. It demonstrates practical skills in securing cloud infrastructure, managing access, and identifying security risks using Google Cloud's native security services.
-
----
-
-## Future Labs
-
-As I continue the Google Cloud Cybersecurity Professional Certificate, this repository will be expanded with additional projects covering:
-
-- Cloud Logging
-- Cloud Monitoring
-- Cloud Armor
-- Cloud IDS
-- Cloud KMS
-- Secret Manager
-- Cloud Audit Logs
-- Security Operations
-- Incident Response
-- Threat Hunting
-- IAM Conditions
-- Organization Policies
+- Do not publish project-specific credentials, student account details, service-account keys, tokens, or Terraform state files.
+- Redact project IDs and personal information from screenshots.
+- Perform intentionally risky security simulations only in authorized, temporary lab environments.
