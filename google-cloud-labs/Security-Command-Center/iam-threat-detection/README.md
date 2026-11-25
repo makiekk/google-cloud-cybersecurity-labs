@@ -1,4 +1,4 @@
-# Google Cloud IAM Threat Detection and Remediation
+# Lab 5: Google Cloud IAM Threat Detection and Incident Remediation
 
 ## Overview
 
